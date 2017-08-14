@@ -1,4 +1,4 @@
-# WebChat broadcast server
+# broadcast server
 
 ## Apresentação
 
