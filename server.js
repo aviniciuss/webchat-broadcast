@@ -24,6 +24,10 @@ socketio.on('connection', (socket) => {
         socketio.emit('agent-disconnected', data)
     })
 
+    socket.on('agent-created', (data) => {
+        socketio.emit('agent-created', data)
+    })
+
     socket.on('client-connected', (data) => {
         socketio.emit('client-connected', data)
     })
